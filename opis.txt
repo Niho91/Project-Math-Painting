@@ -1,0 +1,22 @@
+Aplikacija koja dozvoli korisniku da unese početne koordinate geometrijskih oblika kao sto su kvadrat i pravougaonik,
+njihove dimenzije i njihove boje te aplikacija proizvede file kao sliku platna sa tim geometrijskim oblicima u njemu.
+objects: Square:
+            x
+            y
+            sides
+            colour
+            draw on canvas
+         Rectangle:
+            x
+            y
+            width
+            height
+            colour
+            draw
+         Canvas:
+            width
+            height
+            colour
+            make(imagepath)
+
+
